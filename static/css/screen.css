@@ -1,0 +1,49 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 2, ../sass/components/global/_header-container.scss */
+.header-container .wrapper {
+  background: grey;
+  border-bottom: solid 3px yellow;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  padding: 0 3%;
+}
+
+/* line 1, ../sass/components/global/_footer-container.scss */
+.footer-container {
+  background: grey;
+  border-top: solid 3px yellow;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  clear: both;
+}
+
+/* line 1, ../sass/components/content/_main-intro.scss */
+.main-intro {
+  color: white;
+  background: url(../images/_wood1.png) 50% 0;
+  background-attachment: fixed;
+  padding-bottom: 300px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+/* line 10, ../sass/components/content/_main-intro.scss */
+.main-intro .main-intro-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  padding: 25% 0 0 0;
+}
+
+/* line 1, ../sass/components/content/_services.scss */
+.main-intro {
+  color: white;
+  background: url(../images/_wood1.png) 100% 0;
+  text-align: center;
+  width: 100%;
+}
