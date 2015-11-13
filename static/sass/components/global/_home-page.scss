@@ -1,0 +1,47 @@
+.home-page{
+	.home-section{  
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		text-align: center;
+		//color:$color-light;
+		font-size:1.5vw;
+		padding-bottom: 300px;
+		background-size:100% 100%;
+	}
+	.home-section-wrapper{
+    	width:100%;
+    	margin:0 auto;
+    	padding: 15% 0 0 0;	
+	}
+	.home-bg {
+	  position: relative; 
+	  top: -50%; 
+	  left: -50%; 
+	  width: 200%; 
+	  height: 200%;
+	  z-index: -10000;
+	}
+	.home-bg{
+		img{
+			position: absolute; 
+			top: 0; 
+			left: 0; 
+			right: 0; 
+			bottom: 0; 
+			margin: auto; 
+			min-width: 50%;
+			min-height: 50%;
+		}
+	}
+}
+
+@media(max-width:980px){
+	.home-page{
+		.home-section{  
+			background-attachment: scroll;
+			background-size:auto 100%;
+			font-size:6vw;
+		}
+	}
+}
