@@ -208,3 +208,137 @@ li {
   text-align: center;
   width: 100%;
 }
+
+/* line 1, ../sass/components/content/_steps-module.scss */
+.steps-module {
+  background: url(../images/_wood1.png) 50% 0;
+  background-size: 100%;
+}
+
+/* line 1, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav {
+  position: relative;
+  height: 153px;
+  background: #FFF;
+}
+/* line 5, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav.secondary-wrapper {
+  width: 960px;
+}
+/* line 6, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav.sticky-nav {
+  position: fixed;
+  z-index: 500;
+  margin: 0;
+  left: 0;
+  width: 100%;
+  top: 0;
+}
+/* line 14, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav .lg-logo {
+  float: left;
+}
+/* line 15, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav .active {
+  color: #000;
+  font-family: 'lg_smartsemibold';
+  display: block;
+}
+/* line 20, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav ul {
+  list-style: none;
+  font-size: 48px;
+  font-family: 'lg_smartlight';
+  margin: 62px 0 0 0;
+  padding: .2em 68px;
+  border: 3px solid #eeefef;
+  z-index: 500;
+  position: absolute;
+  right: 0;
+  background: #FFF;
+}
+/* line 31, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav ul a {
+  color: #999;
+  font-weight: normal;
+}
+/* line 36, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav li {
+  margin-right: 40px;
+}
+/* line 38, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav li a {
+  display: none;
+}
+/* line 40, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav .why-verizon {
+  float: right;
+  text-transform: uppercase;
+  color: #666;
+  margin: 7px 0 0 0;
+  position: absolute;
+  right: 0;
+  font-size: 28px;
+}
+
+/* line 1, ../sass/components/content/_rounded-container.scss */
+.rounded-container {
+  display: inline-flex;
+  list-style: none;
+}
+/* line 4, ../sass/components/content/_rounded-container.scss */
+.rounded-container .circle {
+  float: left;
+  margin: 0 15px 0 0;
+  width: 140px;
+  height: 35px;
+  background: #000;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 15px;
+  text-align: center;
+  padding: 43px 0 62px;
+  line-height: 1em;
+  border: solid 1px;
+}
+/* line 19, ../sass/components/content/_rounded-container.scss */
+.rounded-container .icon-works {
+  display: block;
+  font-size: 47px;
+  margin: 0 0 0.5em 0;
+}
+/* line 24, ../sass/components/content/_rounded-container.scss */
+.rounded-container .popup-desc {
+  background: red;
+  display: none;
+}
+
+/* line 1, ../sass/components/content/_install-module.scss */
+.install-module {
+  background: url(../images/_wood1.png) 50% 0;
+  background-size: 100%;
+}
+
+/* line 1, ../sass/components/content/_how-works.scss */
+.how-works {
+  background: url(../images/_wood1.png) 50% 0;
+  background-size: 100%;
+}
+
+/* line 1, ../sass/components/content/_brand-message.scss */
+.brand-message {
+  padding: 0 50px;
+  margin-bottom: 45px;
+}
+/* line 4, ../sass/components/content/_brand-message.scss */
+.brand-message h2 {
+  margin: 0 auto;
+  font-family: 'lg_smartlight';
+  font-size: 48px;
+  color: #6d6e71;
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 60px;
+}

@@ -1,0 +1,28 @@
+.rounded-container{
+    display:inline-flex;
+    list-style:none;
+    .circle {
+        float: left;
+        margin: 0 15px 0 0;
+        width:140px;
+        height: 35px;
+        background: #000;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        font-size: 15px;
+        text-align: center;
+        padding: 43px 0 62px;
+        line-height: 1em;
+        border: solid 1px;
+    }
+    .icon-works{
+        display:block;
+        font-size: 47px;
+        margin:0 0 0.5em 0;
+    }
+    .popup-desc{
+        background:red;
+        display:none;
+    }
+}
