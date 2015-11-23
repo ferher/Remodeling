@@ -184,35 +184,21 @@ li {
   box-sizing: border-box;
 }
 
-/* line 1, ../sass/components/content/_main-intro.scss */
-.main-intro {
-  color: white;
-  background: url(../images/_image5.png) 50% 0;
-  background-attachment: fixed;
-  padding-bottom: 300px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
+/* line 1, ../sass/components/content/_brand-message.scss */
+.brand-message {
+  padding: 0 50px;
+  margin-bottom: 45px;
 }
-/* line 10, ../sass/components/content/_main-intro.scss */
-.main-intro .main-intro-wrapper {
-  width: 50%;
+/* line 4, ../sass/components/content/_brand-message.scss */
+.brand-message h2 {
   margin: 0 auto;
-  padding: 25% 0 0 0;
-}
-
-/* line 1, ../sass/components/content/_services.scss */
-.main-intro {
-  color: white;
-  background: url(../images/_wood1.png) 100% 0;
-  text-align: center;
+  font-family: 'lg_smartlight';
+  font-size: 48px;
+  color: #6d6e71;
   width: 100%;
-}
-
-/* line 1, ../sass/components/content/_steps-module.scss */
-.steps-module {
-  background: url(../images/_wood1.png) 50% 0;
-  background-size: 100%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 60px;
 }
 
 /* line 1, ../sass/components/content/_secondary-nav.scss */
@@ -281,6 +267,40 @@ li {
   font-size: 28px;
 }
 
+/* line 1, ../sass/components/content/_main-intro.scss */
+.main-intro {
+  color: white;
+  background: url(../images/re_3.png) 50% 0;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding-bottom: 300px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+/* line 12, ../sass/components/content/_main-intro.scss */
+.main-intro .main-intro-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  padding: 25% 0 0 0;
+}
+
+/* line 1, ../sass/components/content/_services.scss */
+.main-intro {
+  color: white;
+  background: url(../images/re_2.png) 50% 0;
+  background-size: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 1, ../sass/components/content/_steps-module.scss */
+.steps-module {
+  background: url(../images/re_1.png) 50% 0;
+  background-size: 100%;
+  width: 100%;
+}
+
 /* line 1, ../sass/components/content/_rounded-container.scss */
 .rounded-container {
   display: inline-flex;
@@ -316,29 +336,14 @@ li {
 
 /* line 1, ../sass/components/content/_install-module.scss */
 .install-module {
-  background: url(../images/_wood1.png) 50% 0;
+  background: url(../images/re_2.png) 50% 0;
   background-size: 100%;
+  width: 100%;
 }
 
 /* line 1, ../sass/components/content/_how-works.scss */
 .how-works {
-  background: url(../images/_wood1.png) 50% 0;
+  background: url(../images/re_1.png) 50% 0;
   background-size: 100%;
-}
-
-/* line 1, ../sass/components/content/_brand-message.scss */
-.brand-message {
-  padding: 0 50px;
-  margin-bottom: 45px;
-}
-/* line 4, ../sass/components/content/_brand-message.scss */
-.brand-message h2 {
-  margin: 0 auto;
-  font-family: 'lg_smartlight';
-  font-size: 48px;
-  color: #6d6e71;
   width: 100%;
-  text-align: center;
-  font-weight: normal;
-  font-size: 60px;
 }
