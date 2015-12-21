@@ -1,14 +1,11 @@
 .main-intro{
-	color:white;
-	background:url(../images/re_3.png)50% 0;
-	background-size:100%;
-	background-attachment:fixed;
-	padding-bottom:300px;
-	text-align:center;
-	position:fixed;
-	width:100%;
-	
-
+	background: url(../images/_wood1.png)  50% 0;
+    text-align: center;
+    h1{
+    	text-transform: uppercase;
+        font-family: 'neoretrodrawregular';
+        font-weight: normal;
+    }
     .main-intro-wrapper{
     	width:50%;
     	margin:0 auto;

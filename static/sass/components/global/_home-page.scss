@@ -8,7 +8,16 @@
 		padding-bottom: 300px;
 		background-size:100% 100%;
 	}
-	
+
+	.dark-frame{
+		//@include dark-alpha-background();
+	    margin: 0 auto;
+	    padding: 3%;
+	    border: solid 1px;
+	    border-left:none;
+	    border-right:none;
+	 }
+
 	.home-section-wrapper{
     	width:100%;
     	margin:0 auto;

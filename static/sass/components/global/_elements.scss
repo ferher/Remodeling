@@ -1,6 +1,7 @@
 body{
-
+  //color: $color-gray;
   font-size:22px;
+  color:blue;
   font-family: 'neoretrofillregular';
   background:#000;
 }
@@ -12,7 +13,7 @@ a{
 h1{
   margin:0px;
   text-transform: uppercase;
-  color: #FFF;
+  color: #000;
   font-size: 7vw;    
 }
 h2{
@@ -37,7 +38,22 @@ li{
   font-size: 7vw;
 }
 
-
+//============== ADD THIS WITH THE SASS FORMAT THIS IS REGULAR CSS ========================
+.downloads{
+  margin: 112px auto;
+}
+.downloads a {
+  background: transparent url(../images/sprite-download.png) no-repeat left top;
+  padding: 16px 110px;
+  text-align: center;
+}
+.downloads a.google-play {
+  background: transparent url(../images/sprite-download.png) no-repeat left -59px;
+}
+.downloads a.windows-store {
+  background: transparent url(../images/sprite-download.png) no-repeat left -118px;
+}
+//==================================================== END COMMENT ========================
 
 @media(max-width:980px){
   h1{font-size:14vw;}
