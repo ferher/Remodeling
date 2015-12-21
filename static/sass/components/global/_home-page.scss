@@ -10,7 +10,7 @@
 	}
 
 	.dark-frame{
-		//@include dark-alpha-background();
+		@include dark-alpha-background();
 	    margin: 0 auto;
 	    padding: 3%;
 	    border: solid 1px;

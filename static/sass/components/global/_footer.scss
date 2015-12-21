@@ -1,12 +1,12 @@
 .footer{
-	//@include dark-alpha-background();
+	@include dark-alpha-background();
 	background:#000;
 	border-top: solid 1px #fff;
 	position: fixed;
 	bottom:0;
 	width: 100%;
 	z-index:1000;
-	//color:$color-light;
+	color:$color-light;
 	clear:both;
 	.downloads{
 		float:left;

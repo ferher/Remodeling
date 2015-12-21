@@ -40,8 +40,8 @@
 
 /* line 1, ../sass/components/global/_elements.scss */
 body {
+  color: white;
   font-size: 22px;
-  color: blue;
   font-family: 'neoretrofillregular';
   background: #000;
 }
@@ -57,7 +57,6 @@ a {
 h1 {
   margin: 0px;
   text-transform: uppercase;
-  color: #000;
   font-size: 7vw;
 }
 
@@ -170,6 +169,7 @@ li {
   width: 100%;
   z-index: 1000;
   padding: 0 3%;
+  color: #fff;
 }
 /* line 11, ../sass/components/global/_header-container.scss */
 .header-container .world-icon {
@@ -194,12 +194,21 @@ li {
 }
 /* line 1, ../sass/components/global/_footer.scss */
 .footer {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjIiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjIiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.2)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#33000000',GradientType=0 );
   background: #000;
   border-top: solid 1px #fff;
   position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 1000;
+  color: #fff;
   clear: both;
 }
 /* line 11, ../sass/components/global/_footer.scss */
@@ -304,6 +313,14 @@ li {
 }
 /* line 12, ../sass/components/global/_home-page.scss */
 .home-page .dark-frame {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjIiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjIiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.2)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#33000000',GradientType=0 );
   margin: 0 auto;
   padding: 3%;
   border: solid 1px;
@@ -430,7 +447,7 @@ li {
 
 /* line 1, ../sass/components/content/_main-intro.scss */
 .main-intro {
-  background: url(../images/_wood1.png) 50% 0;
+  background: url(../images/new_a.png) 50% 0;
   text-align: center;
 }
 /* line 4, ../sass/components/content/_main-intro.scss */
@@ -448,19 +465,19 @@ li {
 
 /* line 1, ../sass/components/content/_install-module.scss */
 .install-module {
-  background: url(../images/_wood4.png) 50% 0;
+  background: url(../images/new3.png) 50% 0;
   background-size: 100%;
 }
 
 /* line 1, ../sass/components/content/_steps-module.scss */
 .steps-module {
-  background: url(../images/re_1.png) 50% 0;
+  background: url(../images/new7.png) 50% 0;
   background-size: 100%;
 }
 
 /* line 1, ../sass/components/content/_how-works.scss */
 .how-works {
-  background: url(../images/re_3.png) 50% 0;
+  background: url(../images/new1.png) 50% 0;
   background-size: 100%;
 }
 
