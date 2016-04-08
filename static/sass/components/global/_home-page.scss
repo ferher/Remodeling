@@ -6,17 +6,20 @@
 		text-align: center;
 		font-size:1.5vw;
 		padding-bottom: 300px;
-		background-size:100% 100%;
+		background-size:100%;
 	}
 
 	.dark-frame{
 		@include dark-alpha-background();
 	    margin: 0 auto;
-	    padding: 3%;
+	    padding: 0 13% 45px;
 	    border: solid 1px;
 	    border-left:none;
 	    border-right:none;
+	    h2{text-align:center;}
 	 }
+
+	 .justify-text{text-align:justify;}
 
 	.home-section-wrapper{
     	width:100%;
